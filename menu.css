@@ -1,0 +1,112 @@
+
+body{
+    background-color:rgba(209, 65, 65, 0.986);
+}
+
+h1{
+    color:aqua;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:60px;
+    font-weight: bold;
+    background-image: url("https://static2.bigstockphoto.com/7/9/2/large1500/297327124.jpg ");
+    text-shadow:9px 9px rgb(54, 17, 3);
+    background-size: 50%;
+    margin:10px; 
+    padding:25px;
+    text-align:center;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+nav{
+    padding:15px;
+    background-color: rgb(136, 185, 228);
+    height:40px;
+    width:100%;
+}
+a{
+    text-decoration: none;
+    color:goldenrod;
+    font-size:20px;
+    margin:30px;
+}
+a:link{
+    color:rgb(1, 66, 28);
+}
+a:visited{
+    color:rgb(16, 20, 241);
+}
+a:hover{
+    color:dodgerblue;
+
+}
+a:active{
+    color:maroon;
+}
+h2:hover{
+    color:rgb(54, 17, 3);
+}
+img { 
+    border-radius:50%;
+    box-shadow: 5px 5px 30px rgb(5, 139, 61);
+    inset:10px 10px;
+    float:right;
+     margin-top:20%;
+}
+h2{
+    color:rgb(189, 27, 5);
+    text-align:center;
+    font-size:40px;
+    font-family:"roboto";
+    margin:20px;
+}
+div:first-of-type{
+     background-color: bisque;
+     border-radius:20px;
+}
+div:last-of-type{
+    background-color:aquamarine;
+    border-radius:20px;
+}
+div:nth-last-of-type(2){
+    background-color:deepskyblue;
+    border-radius:20px;
+}
+div:nth-last-of-type(4){
+    background-color:khaki;
+    border-radius:20px;
+}
+div:nth-of-type(2){
+    background-color:salmon;
+    border-radius:20px;
+}
+div:nth-of-type(4){
+    background-color:hotpink;
+    border-radius:20px;
+}
+div{
+    margin:40px;
+    padding:20px;
+}
+h3{ 
+    font-family:"roboto";
+    font-size:30px;
+    font-style: italic;
+    color:rgb(5, 47, 88);
+}
+li:nth-child(2n-1) {
+     font-size: 20px;
+     color:rgb(153, 241, 193);
+     background-color: darkolivegreen;
+     width:50%;
+     padding:20px; 
+     margin:10px;
+}
+li:nth-child(2n) {
+     font-size:20px;
+     color:cyan;
+     padding:20px;
+     width:50%;
+     margin:10px;
+     background-color: darkslategrey;
+}
